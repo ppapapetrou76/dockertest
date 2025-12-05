@@ -1,6 +1,6 @@
 module github.com/ory/dockertest/v3
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/Microsoft/go-winio v0.5.1
@@ -17,8 +17,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
-	golang.org/x/sys v0.1.0
+	golang.org/x/net v0.38.0
+	golang.org/x/sys v0.31.0
 	gotest.tools/v3 v3.1.0
 )
 
